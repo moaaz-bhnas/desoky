@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desoky</title>
+    <style>
+      body {
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+      }
+
+      .scene {
+          width: 100px;    height: 100px;
+          margin-right: 4rem;
+          perspective: 400px;
+      }
+
+      .cube {
+          width: 100%;    height: 100%;
+          position: relative;
+          transform-style: preserve-3d;
+          
+          transition: transform 1s;
+      }
+
+      .cube-1 {
+          transform: rotate3d(1, 1, 0, 22deg);
+      }
+
+      .cube-2 {
+          transform: rotateY(200deg) rotateX(20deg);
+      }
+
+      .cube-3 {
+          transform: rotateY(-110deg) rotateX(-18deg);
+      }
+
+      .cube-4 {
+          transform: rotateY(110deg) rotateX(20deg);
+      }
+
+      .cube-5 {
+          transform: rotateY(20deg) rotateX(-110deg);
+      }
+
+      .cube-6 {
+          transform: rotateY(20deg) rotateX(110deg);
+      }
+      .cube-face {
+          width: 100%;    height: 100%;
+          position: absolute;
+          opacity: .87;
+          
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font: 5rem 'Chewy', cursive;;
+          color: #fff;
+      }
+
+      .front {
+          background-color: #F25774;
+          
+          transform: translateZ(50px);
+      }
+
+      .back {
+          background-color: #F2C36B;
+          
+          transform: rotateY(180deg) translateZ(50px);
+      }
+
+      .right {
+          background-color: #8BD1D9;
+          
+          transform: rotateY(90deg) translateZ(50px);
+      }
+
+      .left {
+          background-color: #A4F280;
+          
+          transform: rotateY(-90deg) translateZ(50px);
+      }
+
+      .top {
+          background-color: #733702;
+          
+          transform: rotateX(90deg) translateZ(50px);
+      }
+
+      .bottom {
+          background-color: #635C73;
+          
+          transform: rotateX(-90deg) translateZ(50px);
+      }
+    </style>
+</head>
+<body>
+    <div class="scene scene-1">
+        <div class="cube cube-1">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+    <div class="scene scene-2">
+        <div class="cube cube-2">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+    <div class="scene scene-3">
+        <div class="cube cube-3">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+    <div class="scene scene-4">
+        <div class="cube cube-4">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+    <div class="scene scene-5">
+        <div class="cube cube-5">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+    <div class="scene scene-6">
+        <div class="cube cube-6">
+            <div class="cube-face front">D</div>
+            <div class="cube-face back">E</div>
+            <div class="cube-face right">S</div>
+            <div class="cube-face left">O</div>
+            <div class="cube-face top">K</div>
+            <div class="cube-face bottom">Y</div>
+        </div>
+    </div>
+</body>
+</html>
