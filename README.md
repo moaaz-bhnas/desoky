@@ -5,7 +5,7 @@ A simple project I built for a very very nice friend of mine. One of a series of
 https://moaaz-bhnas.github.io/desoky/
 
 ## Screenshots
-![Live Preview](https://media.giphy.com/media/l2pm3t5eGZA2akLfic/giphy.gif)
+![Screenshot](https://i.ibb.co/jDnjRX9/2018-12-30-17-00-moaaz-bhnas-github-io.png)
 
 ## The Whole List
 - [Soha Friendversary](https://github.com/moaaz-bhnas/soha-friendversary#friendversary)
